@@ -13,27 +13,27 @@
     <nav>
         <div class="row">
             <div class="col gap-2 d-sm-flex" id="newArray">
-                <button type="button" class="btn btn-outline-success btn-dark newArray">New Array</button>
+                <button type="button" class="btn btn-outline-success btn-white newArray">New Array</button>
             </div>
             <div class="col" id="input">
                 <span id="size">Size
-                    <input id="arr_sz" type="range" min="5" max="101" step=1 value=60>
+                    <input id="arr_sz" class="range-style" type="range" min="5" max="101" step=1 value=60>
                 </span>
                 <span id="speed">Speed
-                    <input id="speed_input" type="range" min="20" max="300" stepDown=10 value=60>
+                    <input id="speed_input" class="range-style" type="range" min="20" max="300" stepDown=10 value=60>
                 </span>
             </div>
             <div class="col gap-2 d-sm-flex justify-content-end">
-                <button type="button" class="btn btn-outline-primary btn-dark bubbleSort">Bubble Sort</button>
-                <button type="button" class="btn btn-outline-primary btn-dark selectionSort">Selection Sort</button>
-                <button type="button" class="btn btn-outline-primary btn-dark insertionSort">Insertion Sort</button>
-                <button type="button" class="btn btn-outline-primary btn-dark quickSort">Quick Sort</button>
-                <button type="button" class="btn btn-outline-primary btn-dark mergeSort">Merge Sort</button>
+                <button type="button" class="btn btn-outline-dark btn-light bubbleSort">Bubble Sort</button>
+                <button type="button" class="btn btn-outline-dark btn-white insertionSort">Insertion Sort</button>
+                <button type="button" class="btn btn-outline-dark btn-white selectionSort">Selection Sort</button>
+                <button type="button" class="btn btn-outline-dark btn-white quickSort">Quick Sort</button>
+                <button type="button" class="btn btn-outline-dark btn-white mergeSort">Merge Sort</button>
             </div>
         </div>
     </nav>
 </header>
-<body class="p-3 mb-2 bg-dark text-white">
+<body class="p-3 mb-2 bg-white text-dark">
     
     <div id="bars" class="flex-container"></div>
 
